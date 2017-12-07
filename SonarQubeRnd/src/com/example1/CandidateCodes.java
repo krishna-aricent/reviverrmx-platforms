@@ -17,8 +17,8 @@ public class CandidateCodes {
 	 public static int parseString(String input1)
 	    {
 			//Write code here				
-			String temp = "0";
-			String retunData = "0";
+			String temp = null;
+			String retunData = null;
 			int smallData = 0;
 			
 			if(isNumericArray(input1)){				
@@ -31,7 +31,7 @@ public class CandidateCodes {
 					{				    
 					    retunData = strTempArr[i];					 
 					    if(isNumericArray2(retunData)){					    	
-					    	 if(smallData == 0){					    		 
+					    	 if(0 == smallData){					    		 
 					    		 smallData = Integer.parseInt(retunData);
 					    		 temp = Integer.toString(smallData);
 					    	 }
