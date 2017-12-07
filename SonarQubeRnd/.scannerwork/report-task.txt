@@ -1,0 +1,6 @@
+projectKey=reviver:sonarqubernd
+serverUrl=http://172.16.0.50:9000
+serverVersion=6.7.0.33306
+dashboardUrl=http://172.16.0.50:9000/dashboard/index/reviver:sonarqubernd
+ceTaskId=AWAvyO4erlkm2LvENUEN
+ceTaskUrl=http://172.16.0.50:9000/api/ce/task?id=AWAvyO4erlkm2LvENUEN
